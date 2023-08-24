@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T17:13:59.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.8" etag="UQQjvKyVaB1bQcIFHL7r" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-24T18:42:16.986Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="LaaSc9uzbK5qr1gyYHvZ" version="21.6.8" type="github">
   <diagram name="Página-1" id="nFpaF7s9Qfsoru6N3irY">
-    <mxGraphModel>
+    <mxGraphModel dx="1720" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-2" value="sysadm_ordertrailer" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="380" y="155" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-3" value="tabla rdv bkp tiene 8 particiones" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-4" value="sysadm_ordertrailer_20230823" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="30" y="150" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-5" value="insert&amp;nbsp;" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-11" value="tabla rdv se va insert solo una particion" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-17" value="facturaitemix" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="670" y="155" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-18" value="insert&amp;nbsp;" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-19" value="ejecutar malla m100&lt;br&gt;task_facturaitemix" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="220" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-20" value="tabla cdv&lt;br&gt;se eliminar la particion anterior antes insertar la nueva particion" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="690" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-21" value="manual&lt;br&gt;insert into filtro fecha de carga" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-22" value="insert&amp;nbsp;" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-23" value="facturaitemix_p1_23082023" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="960" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-24" value="se ira creando tablas acumulativas con una misma fecha de corte&lt;br&gt;ejemplo:&lt;br&gt;facturaitemix_p1 = particion1&lt;br&gt;facturaitemix_p2 = facturaitemix_p1 + particion2&lt;br&gt;.&lt;br&gt;.&lt;br&gt;facturaitemix_p8=facturaitemx_p7 + particion8" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="895" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-25" value="insert&amp;nbsp;" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-26" value="manual&lt;br&gt;insert into filtro fecha de carga" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="832" y="240" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-27" value="manual&lt;br&gt;insert into filtro fecha de carga" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="240" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-28" value="facturaitemix" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BSzU_jYwE1g2hdjrRCdS-29" value="insertar el bkp cdv a la tabla final" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="1280" width="300" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
