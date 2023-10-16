@@ -1,9 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T14:39:24.811Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.4" etag="MhEjG7VpisABYjma3nMz" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T15:28:45.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="WwQZyE4_UsdkhuHSTAt4" version="22.0.4" type="github">
   <diagram name="Página-1" id="pQ8Az3viddMGk7Oej4Cc">
-    <mxGraphModel>
+    <mxGraphModel dx="1290" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="H__6FdCRLry7JcJ1FEJB-1" value="agg_evaluacion_sustento_total_bkp_10082023_ok" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="100" y="170" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H__6FdCRLry7JcJ1FEJB-2" value="contiene data 2021, 2022 ,2023 hasta mayo" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="170" y="60" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H__6FdCRLry7JcJ1FEJB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H__6FdCRLry7JcJ1FEJB-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="430" />
+              <mxPoint x="121" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H__6FdCRLry7JcJ1FEJB-6" value="realiza un ciclo&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H__6FdCRLry7JcJ1FEJB-5">
+          <mxGeometry x="-0.0229" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H__6FdCRLry7JcJ1FEJB-3" value="agg_evaluacion_sustento_total" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H__6FdCRLry7JcJ1FEJB-4" value="&lt;div style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre&gt;MAYOR_1/4_UIT_NO_SOPORTADO_mes&lt;/pre&gt;&lt;pre&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;MAYOR_1/4_UIT_SOPORTADO_mes&lt;/pre&gt;&lt;pre&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;MENOR_1/4_UIT_NO_SOPORTADO_mes&lt;/pre&gt;&lt;pre&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;MENOR_1/4_UIT_SOPORTADO_mes&lt;/pre&gt;&lt;pre&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;CAPEX_VARIABLE_SIN_SOT_mes&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="430" y="232.5" width="300" height="185" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
