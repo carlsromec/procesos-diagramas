@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T23:33:49.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="wOy0Ss8ulzaBEaFpfmXj" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T23:34:57.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yqHgLUd2d-bf5-1XCQFg" version="22.1.5" type="github">
   <diagram name="Página-1" id="SZONqNHoEBk2e5Q26ZTf">
     <mxGraphModel dx="1290" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dYLYo-6RRwzFp5xRImiS-1" value="CAPEX AUTOMATIZACION SECUENCIA" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="70" width="1350" height="480" as="geometry" />
+          <mxGeometry x="10" y="70" width="1480" height="480" as="geometry" />
         </mxCell>
         <mxCell id="dYLYo-6RRwzFp5xRImiS-2" value="SUSTENTO" style="swimlane;startSize=20;horizontal=0;html=1;" parent="dYLYo-6RRwzFp5xRImiS-1" vertex="1">
-          <mxGeometry x="20" width="1330" height="240" as="geometry" />
+          <mxGeometry x="20" width="1460" height="240" as="geometry" />
         </mxCell>
         <mxCell id="dYLYo-6RRwzFp5xRImiS-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dYLYo-6RRwzFp5xRImiS-2" source="dYLYo-6RRwzFp5xRImiS-7" target="dYLYo-6RRwzFp5xRImiS-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry x="60" y="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dYLYo-6RRwzFp5xRImiS-5" value="DATOS" style="swimlane;startSize=20;horizontal=0;html=1;" parent="dYLYo-6RRwzFp5xRImiS-1" vertex="1">
-          <mxGeometry x="20" y="240" width="1330" height="240" as="geometry" />
+          <mxGeometry x="20" y="240" width="1460" height="240" as="geometry" />
         </mxCell>
         <mxCell id="dYLYo-6RRwzFp5xRImiS-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dYLYo-6RRwzFp5xRImiS-5" source="dYLYo-6RRwzFp5xRImiS-14" target="dYLYo-6RRwzFp5xRImiS-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
