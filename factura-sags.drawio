@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T21:33:07.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XNRauDOGMViQS7__Q4mh" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T21:43:28.512Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kfD9uwyQDFgk9XG5YH3v" version="23.1.1" type="github">
   <diagram name="Página-1" id="SbahB-Qi3hLQ9L4SPKrd">
     <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XPGF8S2m1e5gA7_soKsU-2" value="FACTURA SAGs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-2" value="FACTURA SGA" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="30" width="370" height="510" as="geometry" />
         </mxCell>
         <mxCell id="XPGF8S2m1e5gA7_soKsU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XPGF8S2m1e5gA7_soKsU-2" source="XPGF8S2m1e5gA7_soKsU-4" target="XPGF8S2m1e5gA7_soKsU-7">
@@ -70,8 +70,8 @@
         <mxCell id="XPGF8S2m1e5gA7_soKsU-26" value="resultado obtener el campo&amp;nbsp;OHREFNUM" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="XPGF8S2m1e5gA7_soKsU-2">
           <mxGeometry x="230" y="450" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XPGF8S2m1e5gA7_soKsU-29" value="FACTURA SAGs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="30" width="370" height="510" as="geometry" />
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-29" value="FACTURA SGA" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="30" width="370" height="510" as="geometry" />
         </mxCell>
         <mxCell id="XPGF8S2m1e5gA7_soKsU-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XPGF8S2m1e5gA7_soKsU-29" source="XPGF8S2m1e5gA7_soKsU-39" target="XPGF8S2m1e5gA7_soKsU-43">
           <mxGeometry relative="1" as="geometry" />
@@ -112,8 +112,11 @@
         <mxCell id="XPGF8S2m1e5gA7_soKsU-50" value="resultado obtener el campo&amp;nbsp;OHREFNUM" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="XPGF8S2m1e5gA7_soKsU-29">
           <mxGeometry x="200" y="340" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XPGF8S2m1e5gA7_soKsU-52" value="UNION DE AMBOS PROCESOS" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;" vertex="1" parent="XPGF8S2m1e5gA7_soKsU-29">
-          <mxGeometry x="-20" y="200" width="80" height="80" as="geometry" />
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-53" value="FACTURA SGA OPCIONAL" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="40" width="320" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-52" value="UNION DE AMBOS PROCESOS" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;" vertex="1" parent="1">
+          <mxGeometry x="414" y="220" width="96" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
