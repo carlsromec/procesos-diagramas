@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T21:31:22.631Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="VuRTt94LMXce5rY4zaN8" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T21:33:07.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XNRauDOGMViQS7__Q4mh" version="23.1.1" type="github">
   <diagram name="Página-1" id="SbahB-Qi3hLQ9L4SPKrd">
     <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,7 +110,10 @@
           <mxGeometry x="210" y="220" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XPGF8S2m1e5gA7_soKsU-50" value="resultado obtener el campo&amp;nbsp;OHREFNUM" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="XPGF8S2m1e5gA7_soKsU-29">
-          <mxGeometry x="190" y="320" width="120" height="50" as="geometry" />
+          <mxGeometry x="200" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-52" value="UNION DE AMBOS PROCESOS" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;" vertex="1" parent="XPGF8S2m1e5gA7_soKsU-29">
+          <mxGeometry x="-20" y="200" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
