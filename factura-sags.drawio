@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T21:29:33.779Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1VYdnAHGS4LtEVMFHdDa" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T21:31:22.631Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="VuRTt94LMXce5rY4zaN8" version="23.1.1" type="github">
   <diagram name="Página-1" id="SbahB-Qi3hLQ9L4SPKrd">
     <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,6 +69,48 @@
         </mxCell>
         <mxCell id="XPGF8S2m1e5gA7_soKsU-26" value="resultado obtener el campo&amp;nbsp;OHREFNUM" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="XPGF8S2m1e5gA7_soKsU-2">
           <mxGeometry x="230" y="450" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-29" value="FACTURA SAGs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="30" width="370" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XPGF8S2m1e5gA7_soKsU-29" source="XPGF8S2m1e5gA7_soKsU-39" target="XPGF8S2m1e5gA7_soKsU-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-39" value="FACTURA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XPGF8S2m1e5gA7_soKsU-29">
+          <mxGeometry x="150" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XPGF8S2m1e5gA7_soKsU-29" source="XPGF8S2m1e5gA7_soKsU-41" target="XPGF8S2m1e5gA7_soKsU-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-41" value="ACTIVO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XPGF8S2m1e5gA7_soKsU-29">
+          <mxGeometry x="20" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XPGF8S2m1e5gA7_soKsU-29" source="XPGF8S2m1e5gA7_soKsU-43" target="XPGF8S2m1e5gA7_soKsU-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-43" value="ACTIVO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XPGF8S2m1e5gA7_soKsU-29">
+          <mxGeometry x="70" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XPGF8S2m1e5gA7_soKsU-29" source="XPGF8S2m1e5gA7_soKsU-45" target="XPGF8S2m1e5gA7_soKsU-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-45" value="CLIENTEBSCSIX" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XPGF8S2m1e5gA7_soKsU-29">
+          <mxGeometry x="180" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-46" value="LEFT JOIN" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="XPGF8S2m1e5gA7_soKsU-29">
+          <mxGeometry x="170" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XPGF8S2m1e5gA7_soKsU-29" source="XPGF8S2m1e5gA7_soKsU-48" target="XPGF8S2m1e5gA7_soKsU-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-48" value="ACTIVO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XPGF8S2m1e5gA7_soKsU-29">
+          <mxGeometry x="130" y="270" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-49" value="INNER JOIN" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="XPGF8S2m1e5gA7_soKsU-29">
+          <mxGeometry x="210" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XPGF8S2m1e5gA7_soKsU-50" value="resultado obtener el campo&amp;nbsp;OHREFNUM" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="XPGF8S2m1e5gA7_soKsU-29">
+          <mxGeometry x="190" y="320" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
