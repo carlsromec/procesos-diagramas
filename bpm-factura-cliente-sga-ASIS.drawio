@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T21:00:54.500Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5B23WMpBT-SWbj-wwk4t" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T21:09:27.698Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_SdRdzDPAn_7puTZIJkp" version="23.1.1" type="github">
   <diagram name="Página-1" id="yxYmzrYGNaenrbdBNbvY">
     <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,6 +34,9 @@
         <mxCell id="GLRrDsP717pOL5Z_IYUO-10" value="Relacionar tabla A&lt;br&gt;FILTRO&amp;nbsp;BSCS7" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fontSize=11;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="GLRrDsP717pOL5Z_IYUO-2">
           <mxGeometry x="570" y="27.5" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="GLRrDsP717pOL5Z_IYUO-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GLRrDsP717pOL5Z_IYUO-2" source="GLRrDsP717pOL5Z_IYUO-11" target="GLRrDsP717pOL5Z_IYUO-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GLRrDsP717pOL5Z_IYUO-11" value="agregar columna&lt;br&gt;cliente_numrecibocliente" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fontSize=11;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="GLRrDsP717pOL5Z_IYUO-2">
           <mxGeometry x="1220" y="27.5" width="130" height="50" as="geometry" />
         </mxCell>
@@ -53,6 +56,9 @@
         </mxCell>
         <mxCell id="GLRrDsP717pOL5Z_IYUO-16" value="existen registros?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="GLRrDsP717pOL5Z_IYUO-2">
           <mxGeometry x="1060" y="30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GLRrDsP717pOL5Z_IYUO-53" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="GLRrDsP717pOL5Z_IYUO-2">
+          <mxGeometry x="1440" y="30" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GLRrDsP717pOL5Z_IYUO-22" value="data" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="GLRrDsP717pOL5Z_IYUO-1">
           <mxGeometry y="160" width="1510" height="200" as="geometry" />
