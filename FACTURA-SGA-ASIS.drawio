@@ -1,9 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T14:15:37.576Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="23.1.1" etag="cVvk5foPu4zfcGWo4ZZm" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T14:17:49.696Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="bvpGMGjl8xFDC3dvfKYR" version="23.1.1" type="github">
   <diagram name="Página-1" id="xK2uwxEqdYXYNxIzqc5r">
-    <mxGraphModel>
+    <mxGraphModel dx="1877" dy="1699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="loX29VUZp2f9A6N1KhK9-1" value="ASIS - FACTURA SGA&amp;nbsp;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-90" width="870" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-2" value="EXTRACION" style="swimlane;startSize=20;horizontal=0;html=1;fontSize=12;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-1">
+          <mxGeometry y="20" width="870" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="loX29VUZp2f9A6N1KhK9-2" source="loX29VUZp2f9A6N1KhK9-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-2">
+          <mxGeometry x="100" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-5" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;PRD_CFISCAL_CDV&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-2">
+          <mxGeometry x="230" y="7.5" width="100" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-6" value="TABLAS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-2">
+          <mxGeometry x="440" y="7.5" width="140" height="110" as="geometry">
+            <mxRectangle x="390" y="30" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-7" value="ACTIVOS" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-6">
+          <mxGeometry y="30" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-8" value="FACTURA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-6">
+          <mxGeometry y="50" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-9" value="SERIEFACTURACION" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-6">
+          <mxGeometry y="70" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-10" value="CLIENTEBSCSIX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-6">
+          <mxGeometry y="90" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.676;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="loX29VUZp2f9A6N1KhK9-2" source="loX29VUZp2f9A6N1KhK9-6" target="loX29VUZp2f9A6N1KhK9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-17" value="TRANSFORMACION" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-1">
+          <mxGeometry y="240" width="870" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-18" value="OBTENER CAMPOS&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-17">
+          <mxGeometry x="340" y="50" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-19" value="se realizara cruce entre las tablas de acuerdo al analisis funcional, para obtener los campos en la template capex" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-17">
+          <mxGeometry x="520" y="25" width="200" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-20" value="DESCARGA" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-1">
+          <mxGeometry y="430" width="870" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-21" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;PRD_CFISCAL_BDV&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-20">
+          <mxGeometry x="360" y="60" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-22" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;fact_capexvariable_deta&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-20">
+          <mxGeometry x="530" y="40" width="140" height="70" as="geometry">
+            <mxRectangle x="390" y="30" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-23" value="cliente_numrecibocliente" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-22">
+          <mxGeometry y="30" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-24" value="comprobante_fecrecibo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="loX29VUZp2f9A6N1KhK9-22">
+          <mxGeometry y="50" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="loX29VUZp2f9A6N1KhK9-20" source="loX29VUZp2f9A6N1KhK9-23" target="loX29VUZp2f9A6N1KhK9-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="loX29VUZp2f9A6N1KhK9-1" source="loX29VUZp2f9A6N1KhK9-5" target="loX29VUZp2f9A6N1KhK9-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="200" />
+              <mxPoint x="395" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="loX29VUZp2f9A6N1KhK9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="loX29VUZp2f9A6N1KhK9-1" source="loX29VUZp2f9A6N1KhK9-18" target="loX29VUZp2f9A6N1KhK9-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
