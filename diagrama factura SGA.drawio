@@ -1,9 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T13:25:09.689Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="23.1.1" etag="S3QLUqoBYFzuu-Hb06t8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T13:40:42.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="7ezaXeT2mcpaTD-zOvxZ" version="23.1.1" type="github">
   <diagram name="Página-1" id="mMtfup4WZqE7pRhy31zm">
-    <mxGraphModel>
+    <mxGraphModel dx="2117" dy="1699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1--nxBi8rw1qsYLe53P2-4" value="ASIS" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-90" width="870" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="1--nxBi8rw1qsYLe53P2-5" value="EXTRACION" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="1--nxBi8rw1qsYLe53P2-4">
+          <mxGeometry y="20" width="870" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="1--nxBi8rw1qsYLe53P2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1--nxBi8rw1qsYLe53P2-5" source="1--nxBi8rw1qsYLe53P2-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1--nxBi8rw1qsYLe53P2-10" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1--nxBi8rw1qsYLe53P2-5">
+          <mxGeometry x="100" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1--nxBi8rw1qsYLe53P2-28" value="PRD_CFISCAL_CDV" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1--nxBi8rw1qsYLe53P2-5">
+          <mxGeometry x="230" y="7.5" width="120" height="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1--nxBi8rw1qsYLe53P2-30" value="TBL-ACTIVOS" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1--nxBi8rw1qsYLe53P2-5">
+          <mxGeometry x="410" y="25" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1--nxBi8rw1qsYLe53P2-31" value="TBL-FACTURA" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1--nxBi8rw1qsYLe53P2-5">
+          <mxGeometry x="390" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1--nxBi8rw1qsYLe53P2-6" value="TRANSFORMACION" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="1--nxBi8rw1qsYLe53P2-4">
+          <mxGeometry y="240" width="870" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1--nxBi8rw1qsYLe53P2-29" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1--nxBi8rw1qsYLe53P2-6">
+          <mxGeometry x="260" y="35" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1--nxBi8rw1qsYLe53P2-7" value="DESCARGA" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="1--nxBi8rw1qsYLe53P2-4">
+          <mxGeometry y="420" width="870" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1--nxBi8rw1qsYLe53P2-13" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1--nxBi8rw1qsYLe53P2-7">
+          <mxGeometry x="330" y="50" width="60" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
